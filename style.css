@@ -25,6 +25,15 @@ body {
   text-align: center;
   margin: 2vh auto 10vh auto;
   text-shadow: 0 0 15px white;
+  position: relative;
+}
+
+#title::after {
+  content: "Created by Jasser Tayari";
+  position: absolute;
+  bottom: -5px;
+  right: 20px;
+  font-size: 15px;
 }
 
 .input-single {
