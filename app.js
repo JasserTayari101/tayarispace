@@ -29,7 +29,6 @@ function getPicture(req_date){
     .then(data=>{
         data.json()
         .then(res=>{
-            console.log(res);
             btn.textContent = "Get Photo of this date: ";   //reverse the content of button to its original state and stop async loading function 
             var outTitle = document.getElementById("output-title");
             var outImage = document.getElementById("output-image");
