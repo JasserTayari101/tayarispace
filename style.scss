@@ -33,14 +33,17 @@ body{
     content: "Created by Jasser Tayari";
     position: absolute;
     bottom: -5px;
-    right: 20px;
+    right: 15vw;
     font-size: 15px;
 }
 .input-single{
     // text-align: center;
     display: flex;
     justify-content: center;
-    gap: 15vw;
+    gap: 5vw;
+    span{
+        color: $mainColor;
+    }
     button,input{
         padding: 5px;
         letter-spacing: 1px;
@@ -72,6 +75,10 @@ body{
     #output-time{
         color:rgb(76, 243, 42);
         margin-bottom: 4vh;
+    }
+    #output-image{
+        max-width: 80vw;
+        max-height: 80vw;
     }
     #explanation{
         letter-spacing: 1px;
