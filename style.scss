@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto+Condensed:wght@700&display=swap');
+
+@font-face {
+    font-family: 'arcade';
+    src: url('assets/ARCADECLASSIC.TTF');
+}
+$mainColor: rgb(178, 223, 198);
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +12,6 @@
     font-family: 'arcade';
 
 }
-$mainColor: rgb(178, 223, 198);
 body{
     background-image: url('assets/bg.jpg');
     background-size: cover;
@@ -13,12 +19,6 @@ body{
     background-repeat: no-repeat;
     min-height: 100vh;
     min-width: 100vw;
-}
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto+Condensed:wght@700&display=swap');
-
-@font-face {
-    font-family: 'arcade';
-    src: url('assets/ARCADECLASSIC.TTF');
 }
 
 #title{
